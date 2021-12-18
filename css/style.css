@@ -80,22 +80,41 @@ h3.main-pro-desc-heading {
 .main-pro-desc-con table {
 	width: 100%;
 }
-.main-pro-desc-con table tr {
-	
-}
 .main-pro-desc-con table tr td {
 	line-height: 1.5;
 	padding: 10px 5px;
+}
+.main-pro-desc-con table tr td b {
+	background-color: #efefef;
+	display: block;
+	padding: 5px;
+	border-radius: 3px;
+	margin-bottom: 5px;
+}
+
+.table-area b {
+	background-color: #efefef;
+	display: block;
+	padding: 5px;
+	border-radius: 3px;
+	margin-bottom: 5px;
 }
 
 /* Sim Pro */
 
 .single-sim-pro {
 	margin-top: 30px;
+	position: relative;
 }
 .single-sim-pro h4 {
 	margin-bottom: 0;
 	margin-top: 15px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding: 10px;
+	background-color: #e3e3e3;
 }
 
 /* Video Area */
@@ -107,6 +126,11 @@ h3.main-pro-desc-heading {
 	background-position: center;
 	text-align: center;
 	padding: 100px 0;
+}
+
+.vid-area video {
+	border: 2px solid #e3e3e3;
+	box-shadow: 0 0 5px #222;
 }
 
 /* Ftr bnr */
